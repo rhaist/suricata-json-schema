@@ -10,4 +10,6 @@ Reference: https://redmine.openinfosecfoundation.org/issues/2699
 
 - [ ] Dockerfy
 - [ ] Build current stable suricata with maximum supported protocols
-- [ ]
+- [ ] Find a way to provide a reproducible PCAP collection
+- [ ] Build a schema with the python tool genson
+- [ ] Profit.
