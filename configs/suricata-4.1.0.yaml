@@ -63,7 +63,7 @@ stats:
   # Add decode events as stats.
   decoder-events: true
   # Add stream events as stats.
-  stream-events: false
+  stream-events: true
 
 # Configure the type of alert (and other) logging you would like.
 outputs:
@@ -125,7 +125,7 @@ outputs:
       # helpful when reviewing alerts for traffic that is being reverse
       # or forward proxied.
       xff:
-        enabled: yes
+        enabled: no
         # Two operation modes are available, "extra-data" and "overwrite".
         mode: extra-data
         # Two proxy deployments are supported, "reverse" and "forward". In
