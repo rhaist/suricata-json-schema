@@ -104,7 +104,7 @@ outputs:
       # Include top level metadata. Default yes.
       #metadata: no
 
-      pcap-file: false
+      pcap-file: true
 
       # Community Flow ID
       # Adds a 'community_id' field to EVE records. These are meant to give
@@ -1115,8 +1115,8 @@ host-mode: auto
 # activated in live capture mode. You can use the filename variable to set
 # the file name of the socket.
 unix-command:
-  enabled: auto
-  #filename: custom.socket
+  enabled: yes
+  filename: /tmp/suricata.sock
 
 # Magic file. The extension .mgc is added to the value here.
 #magic-file: /usr/share/file/magic
